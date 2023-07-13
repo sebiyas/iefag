@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito:wght@400;700 & family= Poppins:wght@200;300 & display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', 'Poppins' , sans-serif; 
+    font-size: 20px
+}
+
+body{
+    background-color:rgba(209, 207, 207, 0.913);
+}
+
+.header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 60px 10%;
+
+}
+
+.header .logo img{
+    height: 100px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+
+}
+
+.header .nav_links{
+    list-style: none;
+    
+}
+
+.header .nav_links li{
+
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav_links li:hover{
+    
+    transform: scale(1.1);
+
+}
+.header .nav_links a{
+   
+    font-size: 700;
+    color: #880015;
+    text-decoration: none
+}
+
+.header .nav_links li {
+   transition: all 0.3s;
+}
+
+.header .btn button{
+    font-size: 700;
+    color:white ;
+    padding: 9px 25px;
+    background:#574d4ede ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.header .btn button:hover{
+
+    background-color: #880015;
+    color: white;
+    transform: scale(1.2);
+}
+
+.logo span{
+    position: relative;
+    bottom: 35px;
+    left:15px;
+    color:#880015;
+    font-size: 700;
+    font-weight: 400;
+    transition: all 0.3s;
+}
+
+
+.img_fondo img{
+
+    padding:  15px;
+    width: 100%;
+
+}
